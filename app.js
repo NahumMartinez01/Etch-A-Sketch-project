@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       click = !click;
 
       if (click) {
-        draw.innerText = "Now you can draw";
+        draw.innerText = "Now you can draw (click to stop drawing)";
       } else {
         draw.innerText = "Click to draw";
       }
